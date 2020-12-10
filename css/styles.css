@@ -131,13 +131,32 @@ body {
 }
 
 .button {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: fit-content;
+    height: fit-content;
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 15px;
+    font-size: 125%;
+    font-family: inherit;
+    color: rgb(6,84,252);
+    padding: 5px;
+    background: rgb(0,0,0);
+}
+
+.button-code {
+    margin: 0;
     float: right;
     width: fit-content;
     height: fit-content;
     border-width: 5px;
     border-style: outset;
     border-radius: 15px;
-    font-size: 100%;
+    font-size: 125%;
     font-family: inherit;
     color: rgb(6,84,252);
     padding: 5px;
